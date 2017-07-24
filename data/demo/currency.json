@@ -1,0 +1,21 @@
+{
+	"gold":{
+		"displayName":"gold", 
+		"description":"Main currency to earn",
+		"type":"primary",
+		"manualProduction":{
+			"displayName":"earn",
+			"profit":"1"
+		}
+	},
+	"gem":{
+		"displayName":"gem",
+		"description":"Yields when reset occurs",
+		"type":"secondary"
+	},
+	"chocolateMilk":{
+		"displayName":"chocolate milk",
+		"description":"What does this even for?",
+		"type":"secondary"
+	}
+}

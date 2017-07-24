@@ -1,0 +1,31 @@
+{
+	"firstBucketOfGold":{
+		"displayName":"First Bucket of Gold",
+		"description":"Gain 1000 gold for the first time",
+		"condition":[
+			"currency.gold.value>=1000"
+		],
+		"gain":[
+		
+		],
+		"generate":[
+		
+		],
+		"consume":[
+		
+		],
+		"execute":[
+			//custom script goes here
+		]
+	},
+	"firstReset":{
+		"displayName":"Reset!",
+		"description":"Reset and gain gems for the first time",
+		"condition":[
+			"currency.gem.value>=1"
+		],
+		"execute":[
+		
+		]
+	}
+}

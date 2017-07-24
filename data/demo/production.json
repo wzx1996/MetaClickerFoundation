@@ -1,0 +1,45 @@
+{
+	"farm":{
+		"displayName":"farm",
+		"description":"basic method of producing gold",
+		"price":[
+			{
+				"currency":"gold",
+				"amount":"Math.pow(Math.E,this.value/10)*10"
+			}
+		],
+		"generate":[
+			{
+				"currency":"gold",
+				"type":"add",
+				"amount":"this.value"
+			}
+		],
+		"consume":[],
+		"showUpCondition":[
+			"gold.value>=10"
+		]
+	},
+	"factory":{
+		"displayName":"factory",
+		"description":"A better way of producing gold",
+		"price":[
+			{
+				"currency":"gold",
+				"amount":"Math.pow(Math.E,this.value/50)*1000"
+			}
+		],
+		"generate":[
+			{
+				"currency":"gold",
+				"type":"add",
+				"amount":"this.value*20*(1+Math.log(production.farm.value+1))"
+			}
+		],
+		"consume":[],
+		"showUpCondition":[
+			"gold.value>=1000"
+		]
+	}
+	
+}

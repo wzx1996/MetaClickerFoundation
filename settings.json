@@ -1,0 +1,8 @@
+{
+	//Here to specify the data and skin packs to load, in loading order
+	"data":["demo"],
+	"skin":["demo"]
+	
+	//user-defined settings (if any) goes here
+	
+}

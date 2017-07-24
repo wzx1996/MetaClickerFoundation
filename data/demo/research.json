@@ -1,0 +1,62 @@
+{
+	"boost1":{
+		"displayName":"Boost I",
+		"description":"Doubles gold production speed",
+		"price":[
+			{
+				"currency":"gold",
+				"amount":"5000"
+			}
+		],
+		"generate":[
+			{
+				"currency":"gold",
+				"target":"global",
+				"type":"multiply",
+				"amount":"2"
+			}
+		],
+		"consume":[],
+		"gain":[
+			{
+				"currency":"chocolateMilk",
+				"amount":"1"
+			}
+		],
+		"showUpCondition":[
+			"currency.gold.value>=3000"
+		],
+		"execute":[
+			//custom script goes here
+		]
+	},
+	"farmboost1":{
+		"displayName":"Farm Boost I",
+		"description":"Doubles farm production speed",
+		"price":[
+			{
+				"currency":"gold",
+				"amount":"10000"
+			}
+		],
+		"generate":[
+			{
+				"currency":"gold",
+				"target":"farm",
+				"type":"multiply",
+				"amount":"2"
+			}
+		],
+		"consume":[],
+		"gain":[
+			{
+				"currency":"chocolateMilk",
+				"amount":"1"
+			}
+		],
+		"showUpCondition":[
+			"currency.gold.value>=3000",
+			"production.farm.value>=5"
+		]
+	}
+}

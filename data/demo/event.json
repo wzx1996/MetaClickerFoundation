@@ -1,0 +1,23 @@
+{
+	"reset":{
+		"preserve":{
+			"currency":["gem"],
+			"production":[],
+			"research":[]
+		},
+		"gain":[
+			{
+				"currency":"gem",
+				"amount":"Math.round(Math.log(currency.gold.value+1)*50)"
+			}
+		],
+		"execute":[
+			//custom script goes here
+		]
+	},
+	"tick":{
+		"execute":[
+			//custom script goes here
+		]
+	}
+}

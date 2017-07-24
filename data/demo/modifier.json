@@ -1,0 +1,13 @@
+{
+	"gemBoost":{
+		"generate":[
+			{
+				"currency":"gold",
+				"target":"global",
+				"type":"multiply",
+				"amount":"currency.gem.value/10"
+			}
+		],
+		"consume":[]
+	}
+}
